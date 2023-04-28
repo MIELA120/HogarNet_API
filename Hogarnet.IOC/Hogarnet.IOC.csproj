@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hogarnet.DAT\Hogarnet.DAT.csproj" />
+    <ProjectReference Include="..\Hogarnet.NEG\Hogarnet.NEG.csproj" />
+    <ProjectReference Include="..\Hogarnet.UTL\Hogarnet.UTL.csproj" />
+  </ItemGroup>
+
+</Project>
